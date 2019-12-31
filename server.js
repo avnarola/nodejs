@@ -4,9 +4,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const url = 'mongodb+srv://test:test@cluster0-u0xis.mongodb.net/test?retryWrites=true&w=majority';
 const apiroutes = require('./users/user.service');
-// var server = require('http').Server(app);
-// var io = require('socket.io')(server);
-
 require('dotenv').config();
 app.use(express.json());
 
